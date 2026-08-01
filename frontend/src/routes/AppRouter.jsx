@@ -11,6 +11,7 @@ import Dashboard from "../pages/Dashboard/Dashboard";
 import UploadWAEC from "../pages/Upload/UploadWAEC";
 import UploadJAMB from "../pages/Upload/UploadJAMB";
 import EligibilityCheck from "../pages/Eligibility/EligibilityCheck";
+import Profile from "../pages/Profile/Profile";
 
 export default function AppRouter() {
   return (
@@ -33,6 +34,7 @@ export default function AppRouter() {
 
         {/* Dashboard */}
         <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
 
       </Routes>
     </BrowserRouter>

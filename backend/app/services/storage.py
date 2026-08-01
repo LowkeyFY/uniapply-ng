@@ -31,3 +31,17 @@ async def save_file(file_bytes: bytes, original_filename: str) -> str:
     )
 
     return object_key
+
+
+def get_presigned_url(object_key: str, expires_in: int = 3600) -> str | None:
+    """
+    Generate a temporary signed URL for a stored object.
+    Works regardless of whether the bucket is public or private.
+    """
+    if not object_key:
+        return None
+    return s3.generate_presigned_url(
+        "get_object",
+        Params={"Bucket": BUCKET_NAME, "Key": object_key},
+        ExpiresIn=expires_in,
+    )
