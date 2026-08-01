@@ -1,0 +1,28 @@
+import uuid
+from pydantic import BaseModel, EmailStr
+
+class UserCreate(BaseModel):
+    email: EmailStr
+    password: str
+    full_name: str
+    phone: str | None = None
+    state_of_origin: str | None = None
+
+class UserLogin(BaseModel):
+    email: EmailStr
+    password: str
+
+class UserOut(BaseModel):
+    id: uuid.UUID
+    email: EmailStr
+    full_name: str
+    phone: str | None = None
+    state_of_origin: str | None = None
+    is_verified: bool
+
+    class Config:
+        from_attributes = True
+
+class Token(BaseModel):
+    access_token: str
+    token_type: str = "bearer"

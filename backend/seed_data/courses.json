@@ -1,0 +1,9 @@
+[
+  {"name": "Medicine and Surgery", "faculty_name": "Faculty of Clinical Sciences", "jamb_subject_combo": ["English", "Biology", "Chemistry", "Physics"]},
+  {"name": "Computer Science", "faculty_name": "Faculty of Science", "jamb_subject_combo": ["English", "Mathematics", "Physics", "Chemistry"]},
+  {"name": "Law", "faculty_name": "Faculty of Law", "jamb_subject_combo": ["English", "Literature", "Government", "CRS/IRS"]},
+  {"name": "Electrical Electronics Engineering", "faculty_name": "Faculty of Engineering", "jamb_subject_combo": ["English", "Mathematics", "Physics", "Chemistry"]},
+  {"name": "Accounting", "faculty_name": "Faculty of Management Sciences", "jamb_subject_combo": ["English", "Mathematics", "Economics", "Accounting"]},
+  {"name": "Mass Communication", "faculty_name": "Faculty of Social Sciences", "jamb_subject_combo": ["English", "Literature", "Government", "CRS/IRS"]},
+  {"name": "Economics", "faculty_name": "Faculty of Social Sciences", "jamb_subject_combo": ["English", "Mathematics", "Economics", "Government"]}
+]

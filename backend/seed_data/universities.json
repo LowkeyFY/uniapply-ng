@@ -1,0 +1,12 @@
+[
+  {"name": "University of Lagos", "abbreviation": "UNILAG", "type": "federal", "state_code": "LA", "established_year": 1962},
+  {"name": "Lagos State University", "abbreviation": "LASU", "type": "state", "state_code": "LA", "established_year": 1983},
+  {"name": "Covenant University", "abbreviation": "CU", "type": "private", "state_code": "OG", "established_year": 2002},
+  {"name": "University of Ibadan", "abbreviation": "UI", "type": "federal", "state_code": "OY", "established_year": 1948},
+  {"name": "Obafemi Awolowo University", "abbreviation": "OAU", "type": "federal", "state_code": "OS", "established_year": 1961},
+  {"name": "University of Nigeria, Nsukka", "abbreviation": "UNN", "type": "federal", "state_code": "EN", "established_year": 1960},
+  {"name": "Ahmadu Bello University", "abbreviation": "ABU", "type": "federal", "state_code": "KD", "established_year": 1962},
+  {"name": "University of Benin", "abbreviation": "UNIBEN", "type": "federal", "state_code": "ED", "established_year": 1970},
+  {"name": "University of Port Harcourt", "abbreviation": "UNIPORT", "type": "federal", "state_code": "RI", "established_year": 1975},
+  {"name": "Federal University of Technology, Akure", "abbreviation": "FUTA", "type": "federal", "state_code": "ON", "established_year": 1981}
+]

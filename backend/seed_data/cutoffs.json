@@ -1,0 +1,17 @@
+[
+  {"university_abbr": "UNILAG", "course_name": "Medicine and Surgery", "jamb_cutoff": 280, "min_credits": 5, "required_subjects": ["English", "Mathematics", "Biology", "Chemistry", "Physics"], "duration_years": 6, "degree_type": "MBBS"},
+  {"university_abbr": "UNILAG", "course_name": "Computer Science", "jamb_cutoff": 220, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "UNILAG", "course_name": "Law", "jamb_cutoff": 250, "min_credits": 4, "required_subjects": ["English", "Literature", "Government"], "duration_years": 5, "degree_type": "LL.B"},
+  {"university_abbr": "LASU", "course_name": "Computer Science", "jamb_cutoff": 200, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "LASU", "course_name": "Mass Communication", "jamb_cutoff": 190, "min_credits": 4, "required_subjects": ["English", "Literature", "Government"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "CU", "course_name": "Computer Science", "jamb_cutoff": 180, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "CU", "course_name": "Accounting", "jamb_cutoff": 180, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Economics"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "UI", "course_name": "Medicine and Surgery", "jamb_cutoff": 270, "min_credits": 5, "required_subjects": ["English", "Mathematics", "Biology", "Chemistry", "Physics"], "duration_years": 6, "degree_type": "MBBS"},
+  {"university_abbr": "UI", "course_name": "Economics", "jamb_cutoff": 230, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Economics"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "OAU", "course_name": "Electrical Electronics Engineering", "jamb_cutoff": 240, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 5, "degree_type": "B.Eng"},
+  {"university_abbr": "UNN", "course_name": "Law", "jamb_cutoff": 230, "min_credits": 4, "required_subjects": ["English", "Literature", "Government"], "duration_years": 5, "degree_type": "LL.B"},
+  {"university_abbr": "ABU", "course_name": "Medicine and Surgery", "jamb_cutoff": 260, "min_credits": 5, "required_subjects": ["English", "Mathematics", "Biology", "Chemistry", "Physics"], "duration_years": 6, "degree_type": "MBBS"},
+  {"university_abbr": "UNIBEN", "course_name": "Computer Science", "jamb_cutoff": 210, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "UNIPORT", "course_name": "Accounting", "jamb_cutoff": 200, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Economics"], "duration_years": 4, "degree_type": "B.Sc"},
+  {"university_abbr": "FUTA", "course_name": "Electrical Electronics Engineering", "jamb_cutoff": 220, "min_credits": 4, "required_subjects": ["English", "Mathematics", "Physics", "Chemistry"], "duration_years": 5, "degree_type": "B.Eng"}
+]
