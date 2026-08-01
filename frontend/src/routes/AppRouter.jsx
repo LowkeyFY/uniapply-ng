@@ -1,7 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-
 import MainLayout from "../layouts/MainLayout";
-
 import Landing from "../pages/Landing";
 import Explore from "../pages/Explore/Explore";
 import UniversityDetail from "../pages/Explore/UniversityDetail";
@@ -17,8 +15,7 @@ export default function AppRouter() {
   return (
     <BrowserRouter>
       <Routes>
-
-        {/* Public Routes */}
+        {/* Pages with navbar */}
         <Route element={<MainLayout />}>
           <Route path="/" element={<Landing />} />
           <Route path="/explore" element={<Explore />} />
@@ -26,16 +23,12 @@ export default function AppRouter() {
           <Route path="/upload/waec" element={<UploadWAEC />} />
           <Route path="/upload/jamb" element={<UploadJAMB />} />
           <Route path="/eligibility" element={<EligibilityCheck />} />
-      </Route>
-
-        {/* Authentication */}
+          <Route path="/dashboard" element={<Dashboard />} />
+          <Route path="/profile" element={<Profile />} />
+        </Route>
+        {/* Authentication — no navbar */}
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
-
-        {/* Dashboard */}
-        <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/profile" element={<Profile />} />
-
       </Routes>
     </BrowserRouter>
   );
