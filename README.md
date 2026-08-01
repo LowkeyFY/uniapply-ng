@@ -19,3 +19,7 @@ A web application that helps Nigerian secondary school leavers find and apply to
 
 ## Project Structure
 
+### Data coverage note
+
+University and course listings cover 59 NUC-accredited institutions. JAMB cutoff data is complete for Computer Science and Accounting across all 59; Medicine, Law, and Engineering cutoffs are currently only populated for the original 10 universities, since departmental cutoffs for competitive courses require per-institution verification beyond the general institutional minimums used here. Expanding this is real future work
+, not an oversight.
